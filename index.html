@@ -128,7 +128,7 @@
             <h1 style="color: white;"> Best Diagnostic Centre for Full Body Checkup in Singasandra, Bangalore</h1>
             <p>Accurate results you can trust. Our certified laboratory provides a full range of tests with same day results available for most procedures.</p>
             <div class="cta-group">
-                <a href="#" class="clickable-text">Book an Appointment</a>
+                <a href="packages.html" class="clickable-text">Book Our Packages</a>
                 
             </div>
         </div>
@@ -150,19 +150,19 @@
     <h2>Our Valued Healthcare Partners</h2>
     <div class="slider-container">
         <div class="slider-track">
-            <img src="img/logo .png" alt="Hospital A Logo">
-            <img src="img/logo .png" alt="Clinic B Logo">
-            <img src="img/logo .png" alt="Medical Group Logo">
-            <img src="img/logo .png" alt="Health Plan Logo">
-            <img src="img/logo .png" alt="Pharmaceutical Company Logo">
-            <img src="img/logo .png" alt="Research Lab Logo">
+            <img src="img/bioline_lab.png" alt="Hospital A Logo">
+            <img src="img/Centromate_Lab.png" alt="Clinic B Logo">
+            <img src="img/manipal_true_test_lab.png" alt="Medical Group Logo">
+            <img src="img/thyrocare_lab.png" alt="Health Plan Logo">
+            <img src="img/bioline_lab.png" alt="Hospital A Logo">
+            <img src="img/Centromate_Lab.png" alt="Clinic B Logo">
+            <img src="img/manipal_true_test_lab.png" alt="Medical Group Logo">
+            <img src="img/thyrocare_lab.png" alt="Health Plan Logo">
             <!-- Duplicated for seamless looping -->
-            <img src="img/logo .png" alt="Hospital A Logo">
-            <img src="img/logo .png" alt="Clinic B Logo">
-            <img src="img/logo .png" alt="Medical Group Logo">
-            <img src="img/logo .png" alt="Health Plan Logo">
-            <img src="img/logo .png" alt="Pharmaceutical Company Logo">
-            <img src="img/logo .png" alt="Research Lab Logo">
+            <img src="img/bioline_lab.png" alt="Hospital A Logo">
+            <img src="img/Centromate_Lab.png" alt="Clinic B Logo">
+            <img src="img/manipal_true_test_lab.png" alt="Medical Group Logo">
+            <img src="img/thyrocare_lab.png" alt="Health Plan Logo">
         </div>
     </div>
 </section>
@@ -269,7 +269,7 @@
 <!-- Health Packages End -->
 
 
-    <!-- Appointment Start -->
+   <!-- Appointment Start -->
 <div class="container-fluid bg-primary my-5 py-5">
     <div class="container py-5">
         <div class="row gx-5">
@@ -279,9 +279,6 @@
                     <h5 class="d-inline-block text-white text-uppercase border-bottom border-5">Appointment</h5>
                     <h2 class="display-4">Book a Health Check-up or Schedule Home Collection Now</h2>
                 </div>
-                <p class="text-white mb-5">Eirmod sed tempor lorem ut dolores. Aliquyam sit sadipscing kasd ipsum. Dolor ea et dolore et at sea ea at dolor, justo ipsum duo rebum sea invidunt voluptua.</p>
-                <a class="btn btn-dark rounded-pill py-3 px-5 me-3" href="">Find Doctor</a>
-                <a class="btn btn-outline-dark rounded-pill py-3 px-5" href="">Read More</a>
             </div>
 
             <!-- Right Side Form -->
@@ -293,45 +290,37 @@
                         <input type="hidden" name="access_key" value="ba773552-dc62-41cb-bf0e-efade4baabf2">
 
                         <div class="row g-3">
-                            <!-- Department -->
-                            <div class="col-12 col-sm-6">
-                                <select class="form-select bg-light border-0" name="Department" required style="height: 55px;">
-                                    <option value="">Choose Department</option>
-                                    <option>Department 1</option>
-                                    <option>Department 2</option>
-                                    <option>Department 3</option>
-                                </select>
-                            </div>
-
-                            <!-- Doctor -->
-                            <div class="col-12 col-sm-6">
-                                <select class="form-select bg-light border-0" name="Doctor" required style="height: 55px;">
-                                    <option value="">Select Doctor</option>
-                                    <option>Doctor 1</option>
-                                    <option>Doctor 2</option>
-                                    <option>Doctor 3</option>
-                                </select>
-                            </div>
 
                             <!-- Name -->
                             <div class="col-12 col-sm-6">
-                                <input type="text" class="form-control bg-light border-0" name="Name" placeholder="Your Name" required style="height: 55px;">
+                                <input type="text" class="form-control bg-light border-0" name="Name" aria-label="Full Name" placeholder="Your Name" required style="height: 55px;">
                             </div>
 
                             <!-- Email -->
                             <div class="col-12 col-sm-6">
-                                <input type="email" class="form-control bg-light border-0" name="Email" placeholder="Your Email" required style="height: 55px;">
+                                <input type="email" class="form-control bg-light border-0" name="Email" aria-label="Email Address" placeholder="Your Email" required style="height: 55px;">
                             </div>
 
                             <!-- Date -->
                             <div class="col-12 col-sm-6">
-                                <input type="date" class="form-control bg-light border-0" name="Date" required style="height: 55px;">
+                                <input type="date" class="form-control bg-light border-0" name="Date" aria-label="Appointment Date" required style="height: 55px;">
                             </div>
-
+                            
                             <!-- Time -->
                             <div class="col-12 col-sm-6">
-                                <input type="time" class="form-control bg-light border-0" name="Time" required style="height: 55px;">
+                                <input type="time" class="form-control bg-light border-0" name="Time" aria-label="Appointment Time" required style="height: 55px;">
                             </div>
+
+                            <!-- Phone Number -->
+                            <div class="col-12">
+                                <input type="tel" class="form-control bg-light border-0" name="Phone" aria-label="Phone Number" placeholder="Phone Number" pattern="[0-9]{10}" required style="height: 55px;">
+                            </div>
+
+                            <!-- Address -->
+                            <div class="col-12">
+                                <textarea class="form-control bg-light border-0" name="Address" aria-label="Full Address" rows="5" placeholder="Address"></textarea>
+                            </div>
+
 
                             <!-- Submit -->
                             <div class="col-12">
@@ -349,186 +338,6 @@
 
 
 
-    <!-- Pricing Plan Start -->
-    <div class="container-fluid py-5">
-        <div class="container">
-            <div class="text-center mx-auto mb-5" style="max-width: 500px;">
-                <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">Medical Packages</h5>
-                <h2 class="display-4">Awesome Medical Programs</h2>
-            </div>
-            <div class="owl-carousel price-carousel position-relative" style="padding: 0 45px 45px 45px;">
-                <div class="bg-light rounded text-center">
-                    <div class="position-relative">
-                        <img class="img-fluid rounded-top" src="img/price-1.jpg" alt="">
-                        <div class="position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center" style="background: rgba(29, 42, 77, .8);">
-                            <h3 class="text-white">Pregnancy Care</h3>
-                            <h2 class="display-4 text-white mb-0">
-                                <small class="align-top fw-normal" style="font-size: 22px; line-height: 45px;">$</small>49<small class="align-bottom fw-normal" style="font-size: 16px; line-height: 40px;">/ Year</small>
-                            </h2>
-                        </div>
-                    </div>
-                    <div class="text-center py-5">
-                        <p>Emergency Medical Treatment</p>
-                        <p>Highly Experienced Doctors</p>
-                        <p>Highest Success Rate</p>
-                        <p>Telephone Service</p>
-                        <a href="" class="btn btn-primary rounded-pill py-3 px-5 my-2">Apply Now</a>
-                    </div>
-                </div>
-                <div class="bg-light rounded text-center">
-                    <div class="position-relative">
-                        <img class="img-fluid rounded-top" src="img/price-2.jpg" alt="">
-                        <div class="position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center" style="background: rgba(29, 42, 77, .8);">
-                            <h3 class="text-white">Health Checkup</h3>
-                            <h2 class="display-4 text-white mb-0">
-                                <small class="align-top fw-normal" style="font-size: 22px; line-height: 45px;">$</small>99<small class="align-bottom fw-normal" style="font-size: 16px; line-height: 40px;">/ Year</small>
-                            </h2>
-                        </div>
-                    </div>
-                    <div class="text-center py-5">
-                        <p>Emergency Medical Treatment</p>
-                        <p>Highly Experienced Doctors</p>
-                        <p>Highest Success Rate</p>
-                        <p>Telephone Service</p>
-                        <a href="" class="btn btn-primary rounded-pill py-3 px-5 my-2">Apply Now</a>
-                    </div>
-                </div>
-                <div class="bg-light rounded text-center">
-                    <div class="position-relative">
-                        <img class="img-fluid rounded-top" src="img/price-3.jpg" alt="">
-                        <div class="position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center" style="background: rgba(29, 42, 77, .8);">
-                            <h3 class="text-white">Dental Care</h3>
-                            <h2 class="display-4 text-white mb-0">
-                                <small class="align-top fw-normal" style="font-size: 22px; line-height: 45px;">$</small>149<small class="align-bottom fw-normal" style="font-size: 16px; line-height: 40px;">/ Year</small>
-                            </h2>
-                        </div>
-                    </div>
-                    <div class="text-center py-5">
-                        <p>Emergency Medical Treatment</p>
-                        <p>Highly Experienced Doctors</p>
-                        <p>Highest Success Rate</p>
-                        <p>Telephone Service</p>
-                        <a href="" class="btn btn-primary rounded-pill py-3 px-5 my-2">Apply Now</a>
-                    </div>
-                </div>
-                <div class="bg-light rounded text-center">
-                    <div class="position-relative">
-                        <img class="img-fluid rounded-top" src="img/price-4.jpg" alt="">
-                        <div class="position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center" style="background: rgba(29, 42, 77, .8);">
-                            <h3 class="text-white">Operation & Surgery</h3>
-                            <h2 class="display-4 text-white mb-0">
-                                <small class="align-top fw-normal" style="font-size: 22px; line-height: 45px;">$</small>199<small class="align-bottom fw-normal" style="font-size: 16px; line-height: 40px;">/ Year</small>
-                            </h2>
-                        </div>
-                    </div>
-                    <div class="text-center py-5">
-                        <p>Emergency Medical Treatment</p>
-                        <p>Highly Experienced Doctors</p>
-                        <p>Highest Success Rate</p>
-                        <p>Telephone Service</p>
-                        <a href="" class="btn btn-primary rounded-pill py-3 px-5 my-2">Apply Now</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Pricing Plan End -->
-
-
-    <!-- Team Start -->
-    <div class="container-fluid py-5">
-        <div class="container">
-            <div class="text-center mx-auto mb-5" style="max-width: 500px;">
-                <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">Our Doctors</h5>
-                <h2 class="display-4">Qualified Healthcare Professionals</h2>
-            </div>
-            <div class="owl-carousel team-carousel position-relative">
-                <div class="team-item">
-                    <div class="row g-0 bg-light rounded overflow-hidden">
-                        <div class="col-12 col-sm-5 h-100">
-                            <img class="img-fluid h-100" src="img/team-1.jpg" style="object-fit: cover;">
-                        </div>
-                        <div class="col-12 col-sm-7 h-100 d-flex flex-column">
-                            <div class="mt-auto p-4">
-                                <h3>Doctor Name</h3>
-                                <h6 class="fw-normal fst-italic text-primary mb-4">Cardiology Specialist</h6>
-                                <p class="m-0">Dolor lorem eos dolor duo eirmod sea. Dolor sit magna rebum clita rebum dolor</p>
-                            </div>
-                            <div class="d-flex mt-auto border-top p-4">
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-3" href="#"><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-3" href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded-circle" href="#"><i class="fab fa-linkedin-in"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="team-item">
-                    <div class="row g-0 bg-light rounded overflow-hidden">
-                        <div class="col-12 col-sm-5 h-100">
-                            <img class="img-fluid h-100" src="img/team-2.jpg" style="object-fit: cover;">
-                        </div>
-                        <div class="col-12 col-sm-7 h-100 d-flex flex-column">
-                            <div class="mt-auto p-4">
-                                <h3>Doctor Name</h3>
-                                <h6 class="fw-normal fst-italic text-primary mb-4">Cardiology Specialist</h6>
-                                <p class="m-0">Dolor lorem eos dolor duo eirmod sea. Dolor sit magna rebum clita rebum dolor</p>
-                            </div>
-                            <div class="d-flex mt-auto border-top p-4">
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-3" href="#"><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-3" href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded-circle" href="#"><i class="fab fa-linkedin-in"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="team-item">
-                    <div class="row g-0 bg-light rounded overflow-hidden">
-                        <div class="col-12 col-sm-5 h-100">
-                            <img class="img-fluid h-100" src="img/team-3.jpg" style="object-fit: cover;">
-                        </div>
-                        <div class="col-12 col-sm-7 h-100 d-flex flex-column">
-                            <div class="mt-auto p-4">
-                                <h3>Doctor Name</h3>
-                                <h6 class="fw-normal fst-italic text-primary mb-4">Cardiology Specialist</h6>
-                                <p class="m-0">Dolor lorem eos dolor duo eirmod sea. Dolor sit magna rebum clita rebum dolor</p>
-                            </div>
-                            <div class="d-flex mt-auto border-top p-4">
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-3" href="#"><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-3" href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded-circle" href="#"><i class="fab fa-linkedin-in"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Team End -->
-
-
-    <!-- Search Start 
-    <div class="container-fluid bg-primary my-5 py-5">
-        <div class="container py-5">
-            <div class="text-center mx-auto mb-5" style="max-width: 500px;">
-                <h5 class="d-inline-block text-white text-uppercase border-bottom border-5">Find A Doctor</h5>
-                <h2 class="display-4 mb-4">Find A Healthcare Professionals</h2>
-                <h5 class="text-white fw-normal">Duo ipsum erat stet dolor sea ut nonumy tempor. Tempor duo lorem eos sit sed ipsum takimata ipsum sit est. Ipsum ea voluptua ipsum sit justo</h5>
-            </div>
-            <div class="mx-auto" style="width: 100%; max-width: 600px;">
-                <div class="input-group">
-                    <select class="form-select border-primary w-25" style="height: 60px;">
-                        <option selected>Department</option>
-                        <option value="1">Department 1</option>
-                        <option value="2">Department 2</option>
-                        <option value="3">Department 3</option>
-                    </select>
-                    <input type="text" class="form-control border-primary w-50" placeholder="Keyword">
-                    <button class="btn btn-dark border-0 w-25">Search</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Search End -->
 
 
     <!-- Testimonial Start -->
@@ -548,10 +357,9 @@
                                     <i class="fa fa-quote-left fa-2x text-primary"></i>
                                 </div>
                             </div>
-                            <p class="fs-4 fw-normal">Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat. Erat dolor rebum sit ipsum.</p>
+                            <p class="fs-4 fw-normal">Excellent service for a low cost blood test in Singasandra. The staff made me feel completely at ease during the tests!</p>
                             <hr class="w-25 mx-auto">
-                            <h3>Patient Name</h3>
-                            <h6 class="fw-normal text-primary mb-3">Profession</h6>
+                            <h3>Priya Menon, Bangalore</h3>
                         </div>
                         <div class="testimonial-item text-center">
                             <div class="position-relative mb-5">
@@ -560,9 +368,9 @@
                                     <i class="fa fa-quote-left fa-2x text-primary"></i>
                                 </div>
                             </div>
-                            <p class="fs-4 fw-normal">Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat. Erat dolor rebum sit ipsum.</p>
+                            <p class="fs-4 fw-normal">Got my Low Cost CBC test done here. Professional team and accurate reports delivered faster than expected.</p>
                             <hr class="w-25 mx-auto">
-                            <h3>Patient Name</h3>
+                            <h3>Ravi Kumar, Bangalore</h3>
                             <h6 class="fw-normal text-primary mb-3">Profession</h6>
                         </div>
                         <div class="testimonial-item text-center">
@@ -572,9 +380,23 @@
                                     <i class="fa fa-quote-left fa-2x text-primary"></i>
                                 </div>
                             </div>
-                            <p class="fs-4 fw-normal">Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat. Erat dolor rebum sit ipsum.</p>
+                            <p class="fs-4 fw-normal">Clean facility, caring staff, and easy report delivery. Perfect place for health checkups at affordable rates!</p>
                             <hr class="w-25 mx-auto">
-                            <h3>Patient Name</h3>
+                            <h3>Shweta Reddy, Bangalore</h3>
+                            <h6 class="fw-normal text-primary mb-3">Profession</h6>
+                        </div>
+
+
+                        <div class="testimonial-item text-center">
+                            <div class="position-relative mb-5">
+                                <img class="img-fluid rounded-circle mx-auto" src="img/testimonial-3.jpg" alt="">
+                                <div class="position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white rounded-circle" style="width: 60px; height: 60px;">
+                                    <i class="fa fa-quote-left fa-2x text-primary"></i>
+                                </div>
+                            </div>
+                            <p class="fs-4 fw-normal">Very smooth process and cost-effective packages. Truly satisfied with the service and timely reports.</p>
+                            <hr class="w-25 mx-auto">
+                            <h3>Arjun Nair, Bangalore</h3>
                             <h6 class="fw-normal text-primary mb-3">Profession</h6>
                         </div>
                     </div>
@@ -584,81 +406,6 @@
     </div>
     <!-- Testimonial End -->
 
-
-    <!-- Blog Start -->
-    <div class="container-fluid py-5">
-        <div class="container">
-            <div class="text-center mx-auto mb-5" style="max-width: 500px;">
-                <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">Blog Post</h5>
-                <h2 class="display-4">Our Latest Medical Blog Posts</h2>
-            </div>
-            <div class="row g-5">
-                <div class="col-xl-4 col-lg-6">
-                    <div class="bg-light rounded overflow-hidden">
-                        <img class="img-fluid w-100" src="img/blog-1.jpg" alt="">
-                        <div class="p-4">
-                            <a class="h3 d-block mb-3" href="">Dolor clita vero elitr sea stet dolor justo  diam</a>
-                            <p class="m-0">Dolor lorem eos dolor duo et eirmod sea. Dolor sit magna
-                                rebum clita rebum dolor stet amet justo</p>
-                        </div>
-                        <div class="d-flex justify-content-between border-top p-4">
-                            <div class="d-flex align-items-center">
-                                <img class="rounded-circle me-2" src="img/user.jpg" width="25" height="25" alt="">
-                                <small>John Doe</small>
-                            </div>
-                            <div class="d-flex align-items-center">
-                                <small class="ms-3"><i class="far fa-eye text-primary me-1"></i>12345</small>
-                                <small class="ms-3"><i class="far fa-comment text-primary me-1"></i>123</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-6">
-                    <div class="bg-light rounded overflow-hidden">
-                        <img class="img-fluid w-100" src="img/blog-2.jpg" alt="">
-                        <div class="p-4">
-                            <a class="h3 d-block mb-3" href="">Dolor clita vero elitr sea stet dolor justo  diam</a>
-                            <p class="m-0">Dolor lorem eos dolor duo et eirmod sea. Dolor sit magna
-                                rebum clita rebum dolor stet amet justo</p>
-                        </div>
-                        <div class="d-flex justify-content-between border-top p-4">
-                            <div class="d-flex align-items-center">
-                                <img class="rounded-circle me-2" src="img/user.jpg" width="25" height="25" alt="">
-                                <small>John Doe</small>
-                            </div>
-                            <div class="d-flex align-items-center">
-                                <small class="ms-3"><i class="far fa-eye text-primary me-1"></i>12345</small>
-                                <small class="ms-3"><i class="far fa-comment text-primary me-1"></i>123</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-6">
-                    <div class="bg-light rounded overflow-hidden">
-                        <img class="img-fluid w-100" src="img/blog-3.jpg" alt="">
-                        <div class="p-4">
-                            <a class="h3 d-block mb-3" href="">Dolor clita vero elitr sea stet dolor justo  diam</a>
-                            <p class="m-0">Dolor lorem eos dolor duo et eirmod sea. Dolor sit magna
-                                rebum clita rebum dolor stet amet justo</p>
-                        </div>
-                        <div class="d-flex justify-content-between border-top p-4">
-                            <div class="d-flex align-items-center">
-                                <img class="rounded-circle me-2" src="img/user.jpg" width="25" height="25" alt="">
-                                <small>John Doe</small>
-                            </div>
-                            <div class="d-flex align-items-center">
-                                <small class="ms-3"><i class="far fa-eye text-primary me-1"></i>12345</small>
-                                <small class="ms-3"><i class="far fa-comment text-primary me-1"></i>123</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Blog End -->
-    
-
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-light mt-5 py-5">
         <div class="container py-5">
@@ -666,7 +413,8 @@
                 <div class="col-lg-3 col-md-6">
                     <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">Get In Touch</h4>
                     <p class="mb-4">No dolore ipsum accusam no lorem. Invidunt sed clita kasd clita et et dolor sed dolor</p>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt text-primary me-3"></i>123 Street, New York, USA</p>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt text-primary me-3"></i>No 1 B Block, 5th Cross, Subhash Nagar, Manipal County Road, Singasandra, Bangalore 560068
+                    </p>
                     <p class="mb-2"><i class="fa fa-envelope text-primary me-3"></i>info@example.com</p>
                     <p class="mb-0"><i class="fa fa-phone-alt text-primary me-3"></i>+012 345 67890</p>
                 </div>
