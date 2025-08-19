@@ -1,7 +1,7 @@
 // Contents
 //
 // Navbar
-// Navbar brand
+// Navbar Partners
 // Navbar nav
 // Navbar text
 // Responsive navbar
@@ -19,7 +19,7 @@
   display: flex;
   flex-wrap: wrap; // allow us to do the line break for collapsing content
   align-items: center;
-  justify-content: space-between; // space out brand from logo
+  justify-content: space-between; // space out Partners from logo
   padding-top: $navbar-padding-y;
   padding-right: $navbar-padding-x; // default: null
   padding-bottom: $navbar-padding-y;
@@ -49,15 +49,15 @@
 }
 
 
-// Navbar brand
+// Navbar Partners
 //
-// Used for brand, project, or site names.
+// Used for Partners, project, or site names.
 
-.navbar-brand {
-  padding-top: $navbar-brand-padding-y;
-  padding-bottom: $navbar-brand-padding-y;
-  margin-right: $navbar-brand-margin-end;
-  @include font-size($navbar-brand-font-size);
+.navbar-Partners {
+  padding-top: $navbar-Partners-padding-y;
+  padding-bottom: $navbar-Partners-padding-y;
+  margin-right: $navbar-Partners-margin-end;
+  @include font-size($navbar-Partners-font-size);
   text-decoration: if($link-decoration == none, null, none);
   white-space: nowrap;
 
@@ -206,12 +206,12 @@
 
 // Dark links against a light background
 .navbar-light {
-  .navbar-brand {
-    color: $navbar-light-brand-color;
+  .navbar-Partners {
+    color: $navbar-light-Partners-color;
 
     &:hover,
     &:focus {
-      color: $navbar-light-brand-hover-color;
+      color: $navbar-light-Partners-hover-color;
     }
   }
 
@@ -257,12 +257,12 @@
 
 // White links against a dark background
 .navbar-dark {
-  .navbar-brand {
-    color: $navbar-dark-brand-color;
+  .navbar-Partners {
+    color: $navbar-dark-Partners-color;
 
     &:hover,
     &:focus {
-      color: $navbar-dark-brand-hover-color;
+      color: $navbar-dark-Partners-hover-color;
     }
   }
 
